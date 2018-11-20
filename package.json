@@ -1,5 +1,5 @@
 {
-  "name": "appium-ios-driver",
+  "name": "kuben-appium-ios-driver",
   "description": "Appium driver for iOS",
   "keywords": [
     "appium",
@@ -8,14 +8,14 @@
     "instruments"
   ],
   "version": "2.12.0",
-  "author": "appium",
+  "author": "kuben-appium",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/appium/appium-ios-driver.git"
+    "url": "https://github.com/cszhan163/appium-ios-driver.git"
   },
   "bugs": {
-    "url": "https://github.com/appium/appium-ios-driver/issues"
+    "url": "https://github.com/cszhan163/appium-ios-driver/issues"
   },
   "engines": [
     "node"
