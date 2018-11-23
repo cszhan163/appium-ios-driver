@@ -13,7 +13,6 @@
 /* globals $, STATUS, env */
 
 var commands;
-
 (function () {
   var BIG_DATA_THRESHOLD = 50000;
   var MORE_COMMAND = "#more";
@@ -58,7 +57,7 @@ var commands;
         prepareChunk(args);
       } else {
         var stringResult = JSON.stringify(result);
-        $.debug('responding with:' + stringResult.substring(300));
+        $.debug('responding with:' + stringResult);
         if (stringResult.length < BIG_DATA_THRESHOLD) {
           // regular small results
           args.push(MESSAGE_TYPES.indexOf('regular') + ',' + stringResult);

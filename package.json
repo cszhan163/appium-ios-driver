@@ -1,5 +1,5 @@
 {
-  "name": "kuben-appium-ios-driver",
+  "name": "appium-ios-driver",
   "description": "Appium driver for iOS",
   "keywords": [
     "appium",
@@ -43,7 +43,7 @@
     "appium-ios-simulator": "^3.0.0",
     "appium-remote-debugger": "^3.20.0",
     "appium-support": "^2.23.0",
-    "appium-xcode": "^3.1.0",
+    "appium-xcode": "file:../appium-xcode",
     "asyncbox": "^2.3.1",
     "bluebird": "^3.5.1",
     "colors": "^1.1.2",
